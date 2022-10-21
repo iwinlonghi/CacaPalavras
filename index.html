@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+        <h1>ANIMES</h1>
+    </center>
+
+    <table>
+        <tr>
+            <td>
+                BLEACH
+            </td>
+            <td>
+                DEMONSLAYER
+            </td>
+        </tr>
+        <tr>
+            <td>
+            DIGIMON
+            </td>
+            <td>
+                JOJO
+            </td>
+        </tr>
+        <tr>
+            <td>
+                NARUTO
+
+            </td>
+            <td>
+                ONEPIECE
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+POKÉMON
+
+            </td>
+            <td>
+TOKYOGHOUL
+
+            </td>
+        </tr>
+    </table>
+    <br>
+
+
+    <table>
+        <script>
+            matriz = new Array;
+        matriz = [
+        ["E","D","I","T","O","K","Y","O","G","H","O","U","L","F","O","S","K","N"],
+        ["O","O","F","V","G","N","O","D","B","T","R","E","W","L","D","M","T","D"],
+        ["P","M","R","T","N","M","D","N","R","J","O","J","O","A","E","G","E","I"],
+        ["S","L","O","P","F","T","H","D","I","S","P","O","K","É","M","O","N","S"],
+        ["L","A","N","N","I","E","H","O","E","E","S","G","I","R","O","O","I","N"],
+        ["B","L","E","A","C","H","A","T","D","I","G","I","M","O","N","I","E","R"],
+        ["P","G","P","R","R","M","O","T","O","H","Q","H","L","A","S","A","A","I"],
+        ["T","E","I","U","W","S","E","T","F","T","S","A","T","O","L","Y","D","R"],
+        ["T","U","E","T","U","Y","H","N","T","U","D","O","I","E","A","I","H","T"],
+        ["T","N","C","O","C","I","R","D","T","E","H","F","T","O","Y","E","C","E"],
+        ["G","H","E","D","Y","R","A","A","L","N","T","U","P","D","E","R","S","D"],
+        ["Y","I","E","A","T","H","I","C","G","I","E","N","N","H","R","O","U","R"],
+        ];
+
+        var x = 0;
+        for(linha  = 0; linha < 16; linha++){
+            document.write("<tr>");
+            for(coluna = 0; coluna < 18; coluna ++){
+                x++;
+                document.write("<td id = 'letra"+x+"'>" + matriz[linha][coluna]+ "</td>" );                
+            }
+            document.write("</tr>");
+        }
+        </script>
+    </table>
+</body>
+</html>

@@ -1,0 +1,55 @@
+table{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+border: 1px solid black;
+
+ }
+
+td{
+text-align: center;
+width: 20px;
+height: 20px;
+}
+
+#letra4,#letra5,#letra6,#letra7,#letra8,#letra9,#letra10,#letra11,#letra12,#letra13{
+    background-color: #fd8989;
+}
+
+#letra33,#letra51,#letra69,#letra87,#letra,#letra105,#letra123,#letra141,#letra159,#letra177,#letra195,#letra213{
+    background-color: #7fffd4;
+}
+#letra46,#letra47,#letra48,#letra49{
+    background-color: #f1e468;
+}
+#letra65,#letra66,#letra67,#letra68,#letra69,#letra70,#letra71{
+    background-color: #8fbc8f;
+}
+
+#letra99,#letra100,#letra101,#letra102,#letra103,#letra104,#letra105{
+    background-color: #696969;
+}
+
+
+
+#letra57,#letra75,#letra93,#letra111,#letra129,#letra147,#letra165,#letra183{
+    background-color: #4169e1;
+}
+
+#letra76,#letra94,#letra112,#letra130,#letra148,#letra166{
+    background-color: #d8bfd8;
+}
+
+
+#letra91,#letra92,#letra93,#letra94,#letra95,#letra96{
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
